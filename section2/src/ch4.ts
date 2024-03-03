@@ -26,13 +26,13 @@ let user2: User = {
 };
 
 //인덱스 시그니처
+//key 와 타입을 기준으로 객체를 정의
 type countryCodes = {
-  Korea: string;
-  UnitedState: string;
-  Japan: String;
+  [key: string]: string;
 };
-let countryCodes = {
+let countryCodes: countryCodes = {
   Korea: "ko",
   UnitedState: "us",
   Japan: "jp",
+  // china : 1,   오류
 };

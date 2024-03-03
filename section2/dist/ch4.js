@@ -14,4 +14,10 @@ let user2 = {
     birth: "19990811",
     bio: "hi",
 };
+let countryCodes = {
+    Korea: "ko",
+    UnitedState: "us",
+    Japan: "jp",
+    // china : 1,   오류
+};
 export {};
